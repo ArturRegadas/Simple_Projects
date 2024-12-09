@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "C#", "C#", "{570B1104-FAFC-46ED-A506-EC3FB5E57363}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "aula2", "C#\aula2\aula2.csproj", "{26C2B68D-E856-4A41-942D-909FC48047A4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{26C2B68D-E856-4A41-942D-909FC48047A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26C2B68D-E856-4A41-942D-909FC48047A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26C2B68D-E856-4A41-942D-909FC48047A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26C2B68D-E856-4A41-942D-909FC48047A4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{26C2B68D-E856-4A41-942D-909FC48047A4} = {570B1104-FAFC-46ED-A506-EC3FB5E57363}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8065BBBF-A077-45D4-BC8C-A55E424CA771}
+	EndGlobalSection
+EndGlobal
