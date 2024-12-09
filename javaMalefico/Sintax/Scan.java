@@ -1,3 +1,4 @@
+package Sintax;
 import java.util.Scanner;
 
 class Scan{

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ahlre\\Documents\\vscode\\C#\\aula2\\aula2.csproj",
+      "projectUniqueName": "C:\\Users\\ahlre\\Documents\\GitProjects\\Simple_Projects\\C#\\aula2\\aula2.csproj",
       "projectName": "aula2",
-      "projectPath": "C:\\Users\\ahlre\\Documents\\vscode\\C#\\aula2\\aula2.csproj",
+      "projectPath": "C:\\Users\\ahlre\\Documents\\GitProjects\\Simple_Projects\\C#\\aula2\\aula2.csproj",
       "packagesPath": "C:\\Users\\ahlre\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ahlre\\Documents\\vscode\\C#\\aula2\\obj\\",
+      "outputPath": "C:\\Users\\ahlre\\Documents\\GitProjects\\Simple_Projects\\C#\\aula2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ahlre\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -1,3 +1,4 @@
+package Sintax;
 import java.util.Stack;
 
 public class Stacks {
