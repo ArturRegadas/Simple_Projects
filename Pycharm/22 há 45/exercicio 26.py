@@ -1,8 +1,0 @@
-print('\033[34mvamos saber algumas informações sobre sua frase')
-frase=input('digite uma frase \033[1;31m')
-frase=frase.lower().strip()
-print('\033[34ma letra \033[1;35mA\033[34m aparece \033[1;35m{}\033[34m vezes'.format(frase.count('a')))
-print('\033[32m=-'*35)
-print('\033[34ma primeira letra \033[1;35mA\033[34m aparece na \033[1;35m{}ª \033[34mposição'.format(frase.find('a')+1))
-print('\033[32m=-'*35)
-print('\033[34ma ultima letra \033[1;35mA\033[34m aparece na \033[1;35m{}ª\033[34m posição'.format(frase.rfind('a')+1))
