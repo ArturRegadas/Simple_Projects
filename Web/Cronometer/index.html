@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style/style.css">
+    <title>Cronometer</title>
+</head>
+<body>
+    <div class="container">
+        <div >
+            <div class="cronometer">
+                <div class="time" id="hrs">00</div>
+                <div class="time" id="min">00</div>
+                <div class="time" id="seg">00</div>    
+            </div>
+            
+            <div class="buttons">
+                <button class="button" id="edit" onclick="editCronometer()" ></button>
+                <button class="button" id="stop" onclick="stopCronometer()"></button>
+                <button class="button" id="start" onclick="startCronometer()"></button>
+            </div>
+        </div>
+    </div>
+
+    <script src="src/script/script.js"></script>
+    
+</body>
+</html>
