@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/style/style.css">
+    <title>Music</title>
+</head>
+<body>
+    <div class="player">    
+        <h1 id="musicName">Music name</h1>
+        <audio id="audio" preload="metadata"></audio>
+        <br>
+        <input type="range" id="progress" step="1" min="0" max="100">
+        <br>
+        <button onclick="passMusic(-1)">anterior</button>
+        <button onclick="startPause()">play/pause</button>
+        <button onclick="passMusic(1)">proxima</button>
+        
+        <script src="src/script/script.js"></script>
+    </div>
+    
+</body>
+</html>
