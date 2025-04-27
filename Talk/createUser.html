@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>create user</title>
+</head>
+<body>
+    <input type="text" id="username">
+    <input type="password" id="password">
+    <input type="password" id="confirmPassword">
+    <button onclick="CreateLogin()">CreateLogin</button>
+    <h1 id="response"></h1>
+    <script>
+        function CreateLogin(){
+            let username = document.getElementById("username").value;
+            let password = document.getElementById("password").value;
+            let confirmPassword = document.getElementById("confirmPassword").value;
+            let responseText = document.getElementById("response");
+            if(password == confirmPassword){
+                fetch("http://localhost:8080/api/createUser",{
+                    method:"POST",
+                    headers:{"Content-Type":"application/json"},
+                    body:JSON.stringify({
+                        userName:username,
+                        password:password
+                    })
+                }).then(response => {
+                    console.log(response);
+                    if(response.status == 201)
+                        responseText.innerHTML = "Criado";
+                    else
+                        responseText.innerHTML = "Erro ao criar";
+                    return response.json();
+                });
+            }
+        }
+
+    </script>
+</body>
+</html>
